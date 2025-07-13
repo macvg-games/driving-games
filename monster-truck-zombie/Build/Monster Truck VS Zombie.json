@@ -1,0 +1,16 @@
+{
+"companyName": "Parrot Games",
+"productName": "Monster Truck VS Zombie",
+"productVersion": "1.0",
+"dataUrl": "Monster Truck VS Zombie.data.unityweb",
+"wasmCodeUrl": "Monster Truck VS Zombie.wasm.code.unityweb",
+"wasmFrameworkUrl": "Monster Truck VS Zombie.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.18f1"
+}

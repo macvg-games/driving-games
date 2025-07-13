@@ -1,0 +1,219 @@
+/* Base CSS*/
+body
+{
+	background: gray;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	width:100%;
+	height:100;
+}
+
+#MyCanvasID
+{
+	margin:	0p;
+	padding: 0;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	display:none;
+	opacity:1.0;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+.DebugDiv
+{
+	z-index:500;
+	background-color:rgba(0,30,0,0.9);
+	color:green;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size:12px;
+	position:fixed;
+	top:0;
+	left:0;
+	width:50%;
+	height:50%;
+	overflow:hidden;
+	padding:10px;
+	display:none;
+}
+
+
+/* FIREBASE LOGIN*/
+#LoginOverlay
+{
+position:fixed;
+top:0; 
+left: 0;
+background:rgba(50, 50, 50, 0.25);
+width: 100vw;
+height: 100vh;
+z-index: 10001;
+backdrop-filter: blur(8px);
+}
+
+.LoginGameIcon
+{
+margin-top:-25px;
+width: 150px;
+height: 150px;
+border-radius : 150px;
+clear: both;
+}
+
+.LoginEditIcon
+{
+margin-top:-32px;
+margin-left:-50px;
+width: 45px;
+height: 45px;
+border-radius :45px;
+background:rgb(255, 251, 0);
+
+}
+
+.LoginAvatarIcon
+{
+margin:0;
+width: 33%;
+height: 33%;
+box-sizing: border-box;
+float:left;
+}
+
+
+#LoginClose
+{
+position:absolute;
+left:-30px; top:-30px;
+width: 60px;
+height: 60px;
+border-radius : 150px;
+}
+
+.LoginWindow
+{
+position: absolute;
+top: 50%; left: 50%;
+transform: translate(-50%,-50%);
+width: 400px;
+max-width:90vw;
+height: 400px;
+max-height:90vh;
+
+border-radius : 5px;
+box-shadow: 0px 0px 145px black; 
+background:rgba(255, 255, 255, 0.9);
+text-align:center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+}
+
+.LoginInfoBox
+{
+width: 100%;
+text-align:center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 22px;
+margin-top:10px;
+margin-bottom:20px;
+padding:0px;
+color:black;
+border-width: 0;
+}
+
+.LoginTextBox
+{
+width: 70%;
+text-align:center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+margin-top:25px;
+margin-bottom:45px;
+padding:5px;
+color:black;
+background:rgb(200, 200, 200);
+border-width: 0;
+border-radius : 5px;
+box-shadow:inset 3px 3px 3px #555;
+
+}
+
+button
+{
+width:110%;
+margin-left:-20px;
+height:60px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+background:rgb(255, 155, 50);
+border-width: 0;
+border-radius : 5px;
+margin-top:5px;
+margin-bottom:15px;
+clear: both;
+background-repeat: no-repeat;
+background-position: 13px -3px;
+
+
+}
+
+#ScoreBoard
+{
+width:300px;
+height:auto;
+position:fixed;
+top: 10px;
+left:130px;
+
+}
+
+.ScoreRow
+{
+background:rgba(200, 200, 200, 0.5);
+width: 150px;
+height: 55px;
+margin-bottom:5px;
+float:left;
+border-radius : 5px;
+
+}
+
+.ScoreIcon
+{
+width: 50px;
+height: 50px;
+float:left;
+border-radius : 50px;
+
+}
+
+#ConnectIcon
+{
+background:rgba(143, 58, 58, 0.191);
+width:100px;
+height:100px;
+background-size: 100% 100%;
+position:fixed;
+top: 10px;
+left:10px;
+border-radius : 200px;
+z-index: 9999;
+}
+
+#ConnectName
+{
+width:100px;
+height:15px;
+background-size: 100% 100%;
+position:fixed;
+top: 120px;
+left:10px;
+text-align: center;
+font-weight: bold;
+color:black;
+text-shadow: 0px 1px 12px gray;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

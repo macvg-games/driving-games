@@ -1,0 +1,87 @@
+0// Simple Engine By Moshé
+// List of files loaded when the app start (with progress bar)
+// type: image				texture images
+// type: mesh				3d Mesh (Wavefront OBJ or Zslurp)
+// type: font				font file with texture
+// type: atlas				atlas texture
+
+{ "type":"image",	"id":0,				"path":"game_icon512.png" }
+{ "type":"font",	"id":0,				"path":"noto" }
+{ "type":"atlas",	"id":0,				"path":"ui-atlas" }
+
+{ "type":"sound",	"id":"blank",			"path":"blank" }
+{ "type":"sound",	"id":"title",			"path":"title" }
+{ "type":"sound",	"id":"next",			"path":"next" }
+{ "type":"sound",	"id":"music",			"path":"music" }
+{ "type":"sound",	"id":"engine1",			"path":"engine1" }
+{ "type":"sound",	"id":"engine2",			"path":"engine2" }
+{ "type":"sound",	"id":"drift",			"path":"drift" }
+{ "type":"sound",	"id":"landing",			"path":"landing" }
+{ "type":"sound",	"id":"hit",				"path":"hit" }
+{ "type":"sound",	"id":"mud",				"path":"mud" }
+{ "type":"sound",	"id":"boost",			"path":"boost" }
+{ "type":"sound",	"id":"lap",				"path":"lap" }
+{ "type":"sound",	"id":"coin1",			"path":"coin1" }
+{ "type":"sound",	"id":"coin2",			"path":"coin2" }
+{ "type":"sound",	"id":"vroom",			"path":"vroom" }
+{ "type":"sound",	"id":"start1",			"path":"start1" }
+{ "type":"sound",	"id":"start2",			"path":"start2" }
+{ "type":"sound",	"id":"results",			"path":"results" }
+{ "type":"sound",	"id":"indent",			"path":"indent" }
+
+{ "type":"image",	"id":1,		"path":"keyboard-1.png" }
+{ "type":"image",	"id":2,		"path":"keyboard-2.png" }
+{ "type":"image",	"id":3,		"path":"keyboard-3.png" }
+{ "type":"image",	"id":4,		"path":"keyboard-4.png" }
+{ "type":"image",	"id":5,		"path":"keyboard-5.png" }
+{ "type":"image",	"id":6,		"path":"keyboard-6.png" }
+{ "type":"image",	"id":7,		"path":"keyboard-7.png" }
+{ "type":"image",	"id":8,		"path":"keyboard-8.png" }
+{ "type":"image",	"id":9,		"path":"keyboard-9.png" }
+
+{ "type":"image",	"id":20,		"path":"particles.png" }
+{ "type":"image",	"id":21,		"path":"shadow.png" }
+{ "type":"image",	"id":22,		"path":"skidmark.png" }
+{ "type":"image",	"id":23,		"path":"mud.png" }
+{ "type":"image",	"id":24,		"path":"mud2.png" }
+{ "type":"image",	"id":25,		"path":"seam.png" }
+{ "type":"image",	"id":26,		"path":"speed.png" }
+{ "type":"image",	"id":50,		"path":"cellshade-1.png" }
+{ "type":"image",	"id":51,		"path":"car-dummy.png" }
+{ "type":"image",	"id":52,		"path":"grad.png" }
+{ "type":"image",	"id":53,		"path":"sand.png" }
+{ "type":"image",	"id":54,		"path":"grass.png" }
+{ "type":"image",	"id":55,		"path":"mud3.png" }
+{ "type":"image",	"id":56,		"path":"glass.png" }
+{ "type":"image",	"id":57,		"path":"helmet_z.png" }
+{ "type":"image",	"id":58,		"path":"tyre-z.png" }
+{ "type":"image",	"id":59,		"path":"blob.png" }
+{ "type":"image",	"id":60,		"path":"default.png" }
+
+{ "type":"mesh",	"id":2,		"path":"tyre.zslurp" }
+{ "type":"mesh",	"id":3,		"path":"tyre2.zslurp" }
+{ "type":"mesh",	"id":4,		"path":"spot.obj" }
+{ "type":"mesh",	"id":5,		"path":"spring.zslurp" }
+{ "type":"mesh",	"id":6,		"path":"tyre3.zslurp" }
+{ "type":"mesh",	"id":7,		"path":"earth.zslurp" }
+{ "type":"mesh",	"id":8,		"path":"helmet_hi.zslurp" }
+{ "type":"mesh",	"id":9,		"path":"random.zslurp" }
+{ "type":"mesh",	"id":10,	"path":"car1.zslurp" }
+{ "type":"mesh",	"id":11,	"path":"car2.zslurp" }
+{ "type":"mesh",	"id":12,	"path":"car3.zslurp" }
+{ "type":"mesh",	"id":13,	"path":"car4.zslurp" }
+{ "type":"mesh",	"id":14,	"path":"tyre_boost.zslurp" }
+{ "type":"mesh",	"id":17,	"path":"flames.zslurp" }
+{ "type":"mesh",	"id":18,	"path":"smoke.zslurp" }
+// 19 is special mesh
+{ "type":"mesh",	"id":20,	"path":"coin.zslurp" }
+{ "type":"mesh",	"id":21,	"path":"circle.zslurp" }
+
+
+
+
+
+
+
+
+

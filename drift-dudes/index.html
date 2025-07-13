@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drift Dudes | MacVG</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <link rel="icon" type="image/png" href="resources/images/game_icon512.png" />
+    <link rel="apple-touch-icon" href="resources/images/game_icon512.png" />
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css" />
+
+    <script>
+      var Trigger_DisableFireBAse = false;
+    </script>
+
+    <script src="js/se_firebase.js" type="text/javascript"></script>
+    <script src="js/se_firebase_module.js" type="module"></script>
+    <script>
+      function se_savePref() {}
+
+      window.famobi_gameID = "drift-dudes";
+      window.famobi_gameJS = [
+        "js/libs/gl-matrix-min.js",
+        "js/libs/zip-full.min.js",
+        "js/libs/socket.io.min.js",
+        "js/compressed.f.js",
+        function () {
+          se_start("MyCanvasID", "FAMOBI");
+        }, // GAMES_SNACKS
+      ];
+
+      (function (document, url, fgJS, firstJS) {
+        fgJS = document.createElement("script");
+        firstJS = document.getElementsByTagName("script")[0];
+        fgJS.src = url + encodeURIComponent(document.location.href);
+        firstJS.parentNode.insertBefore(fgJS, firstJS);
+      })(document, "js/start.js?e=");
+    </script>
+  </head>
+
+  <body style="overflow: hidden">
+    <canvas id="MyCanvasID"></canvas>
+
+    <div id="LoginOverlay" style="display: bock">
+      <div id="LoginWindow" class="LoginWindow" style="display: none">
+        <img id="LoginClose" src="resources/login/close.png" onclick="ConnectDisconnect('guest');Login_CloseWindow()" />
+        <img class="LoginGameIcon" src="resources/images/game_icon512.png" />
+        <div class="LoginInfoBox">Connect to<br />your account</div>
+        <button style="background-image: url(resources/login/facebook.png)" onclick="ConnectDisconnect('facebook')">
+          Login with Facebook
+        </button>
+        <button style="background-image: url(resources/login/google.png)" onclick="ConnectDisconnect('google')">
+          Sign in with Google
+        </button>
+        <button
+          style="
+            color: white;
+            background-image: url(resources/login/guest.png);
+            margin-top: 15px;
+            background-color: rgb(51, 7, 93);
+          "
+          onclick="ConnectDisconnect('guest')"
+        >
+          <img style="margin: -49px; position: relative; top: -37px; left: 305px" src="resources/login/arrow.png" />
+          Continue as GUEST
+        </button>
+      </div>
+
+      <div id="LoginUserWindow" class="LoginWindow" style="display: none">
+        <img id="LoginUserIcon" class="LoginGameIcon" src="resources/images/game_icon512.png" onclick="Login_ShowAvatar()" />
+        <img class="LoginEditIcon" src="resources/login/edit.png" onclick="Login_ShowAvatar()" />
+        <input type="text" id="LoginUserName" name="LoginUserName" class="LoginTextBox" maxlength="15" />
+        <button style="background-image: url(resources/login/ok.png)" onclick="Login_CloseWindow()">Ok!</button>
+        <button
+          style="background-image: url(resources/login/logout.png)"
+          onclick="ConnectDisconnect('close');Login_CloseWindow()"
+        >
+          Logout
+        </button>
+      </div>
+
+      <div id="LoginAvatarWindow" class="LoginWindow" style="display: none">
+        <img id="LoginClose" src="resources/login/close.png" onclick="Login_SetAvatar(-1)" />
+
+        <img
+          id="LoginUserAvatar"
+          class="LoginAvatarIcon"
+          src="resources/images/game_icon512.png"
+          onclick="Login_SetAvatar(this)"
+        />
+        <img class="LoginAvatarIcon" src="resources/login/avatar1.png" onclick="Login_SetAvatar(this)" />
+        <img class="LoginAvatarIcon" src="resources/login/avatar2.png" onclick="Login_SetAvatar(this)" />
+
+        <img class="LoginAvatarIcon" src="resources/login/avatar3.png" onclick="Login_SetAvatar(this)" />
+        <img class="LoginAvatarIcon" src="resources/login/avatar4.png" onclick="Login_SetAvatar(this)" />
+        <img class="LoginAvatarIcon" src="resources/login/avatar5.png" onclick="Login_SetAvatar(this)" />
+
+        <img class="LoginAvatarIcon" src="resources/login/avatar6.png" onclick="Login_SetAvatar(this)" />
+        <img class="LoginAvatarIcon" src="resources/login/avatar7.png" onclick="Login_SetAvatar(this)" />
+        <img class="LoginAvatarIcon" src="resources/login/avatar8.png" onclick="Login_SetAvatar(this)" />
+      </div>
+    </div>
+  </body>
+</html>
