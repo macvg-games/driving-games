@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pako Highway | MacVG</title>
+    <link rel="stylesheet" href="./patch/vseigru/gameloader2020.css" />
+    <script src="./patch/vseigru/gameloader2020.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body style="overflow: hidden">
+    <script type="text/javascript">
+      var options = {
+        author: "Vseigru",
+        logo: "logo.gif",
+        gameName: "Шоссе Пако",
+        gameNameEu: "Pako Highway",
+        gameUrl: "35932",
+        // moreLink: ("https://vseigru.net"),
+        // allowFullscreen: true,
+        locale: "en_US",
+        loader: "unity2020",
+        loaderOptions: {
+          unityLoaderUrl: "Build/phhhh.loader.js",
+          unityConfigOptions: {
+            dataUrl: "Build/phhhh.data",
+            frameworkUrl: "Build/phhhh.framework.js",
+            codeUrl: "Build/phhhh.wasm",
+            streamingAssetsUrl: "StreamingAssets",
+          },
+        },
+      };
+      GameInit.load(options);
+    </script>
+  </body>
+</html>

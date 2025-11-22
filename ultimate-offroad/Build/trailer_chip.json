@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 536870912,
+"dataUrl": "trailer_chip.data.unityweb",
+"asmCodeUrl": "trailer_chip.asm.code.unityweb",
+"asmMemoryUrl": "trailer_chip.asm.memory.unityweb",
+"asmFrameworkUrl": "trailer_chip.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}

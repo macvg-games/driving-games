@@ -1,0 +1,156 @@
+{
+	"__header__": {
+		"fileType": "LEd Project JSON",
+		"app": "LEd",
+		"appAuthor": "Sebastien Benard",
+		"appVersion": "0.3.2-beta",
+		"url": "https://deepnight.net/tools/led-2d-level-editor/"
+	},
+	"jsonVersion": "0.3.2",
+	"defaultPivotX": 0.5,
+	"defaultPivotY": 0.5,
+	"defaultGridSize": 16,
+	"bgColor": "#7F8093",
+	"nextUid": 5,
+	"minifyJson": false,
+	"exportTiled": false,
+	"defs": {
+		"layers": [
+			{
+				"__type": "Entities",
+				"identifier": "Entities",
+				"type": "Entities",
+				"uid": 3,
+				"gridSize": 16,
+				"displayOpacity": 1,
+				"intGridValues": [ { "identifier": null, "color": "#000000" } ],
+				"autoTilesetDefUid": null,
+				"autoRuleGroups": [],
+				"autoSourceLayerDefUid": null,
+				"tilesetDefUid": null,
+				"tilePivotX": 0,
+				"tilePivotY": 0
+			},
+			{
+				"__type": "IntGrid",
+				"identifier": "Static",
+				"type": "IntGrid",
+				"uid": 1,
+				"gridSize": 16,
+				"displayOpacity": 1,
+				"intGridValues": [ { "identifier": null, "color": "#000000" } ],
+				"autoTilesetDefUid": null,
+				"autoRuleGroups": [],
+				"autoSourceLayerDefUid": null,
+				"tilesetDefUid": null,
+				"tilePivotX": 0,
+				"tilePivotY": 0
+			}
+		],
+		"entities": [
+			{
+				"identifier": "Respawn_player",
+				"uid": 2,
+				"width": 8,
+				"height": 8,
+				"color": "#94D9B3",
+				"renderMode": "Cross",
+				"tilesetId": null,
+				"tileId": null,
+				"tileRenderMode": "Stretch",
+				"maxPerLevel": 0,
+				"limitBehavior": "DiscardOldOnes",
+				"pivotX": 0.5,
+				"pivotY": 0.5,
+				"fieldDefs": []
+			},
+			{
+				"identifier": "Respawn_enemy",
+				"uid": 4,
+				"width": 8,
+				"height": 8,
+				"color": "#E84A4A",
+				"renderMode": "Cross",
+				"tilesetId": null,
+				"tileId": null,
+				"tileRenderMode": "Stretch",
+				"maxPerLevel": 0,
+				"limitBehavior": "DiscardOldOnes",
+				"pivotX": 0.5,
+				"pivotY": 0.5,
+				"fieldDefs": []
+			}
+		],
+		"tilesets": [],
+		"enums": [],
+		"externalEnums": []
+	},
+	"levels": [ {
+		"identifier": "Static",
+		"uid": 0,
+		"pxWid": 512,
+		"pxHei": 512,
+		"layerInstances": [
+			{
+				"__identifier": "Entities",
+				"__type": "Entities",
+				"__cWid": 32,
+				"__cHei": 32,
+				"__gridSize": 16,
+				"levelId": 0,
+				"layerDefUid": 3,
+				"pxOffsetX": 0,
+				"pxOffsetY": 0,
+				"intGrid": [],
+				"autoTiles": [],
+				"seed": 220197,
+				"gridTiles": [],
+				"entityInstances": [
+					{ "__identifier": "Respawn_enemy", "__cx": 15, "__cy": 15, "defUid": 4, "x": 248, "y": 248, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 21, "__cy": 10, "defUid": 4, "x": 344, "y": 168, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 9, "__cy": 21, "defUid": 4, "x": 152, "y": 344, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 4, "__cy": 27, "defUid": 4, "x": 72, "y": 440, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 16, "__cy": 27, "defUid": 4, "x": 264, "y": 440, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 27, "__cy": 27, "defUid": 4, "x": 440, "y": 440, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 27, "__cy": 15, "defUid": 4, "x": 440, "y": 248, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 4, "__cy": 15, "defUid": 4, "x": 72, "y": 248, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 4, "__cy": 3, "defUid": 4, "x": 72, "y": 56, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 16, "__cy": 3, "defUid": 4, "x": 264, "y": 56, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 27, "__cy": 3, "defUid": 4, "x": 440, "y": 56, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 22, "__cy": 20, "defUid": 4, "x": 360, "y": 328, "fieldInstances": [] },
+					{ "__identifier": "Respawn_enemy", "__cx": 11, "__cy": 9, "defUid": 4, "x": 184, "y": 152, "fieldInstances": [] },
+					{ "__identifier": "Respawn_player", "__cx": 16, "__cy": 14, "defUid": 2, "x": 264, "y": 232, "fieldInstances": [] },
+					{ "__identifier": "Respawn_player", "__cx": 7, "__cy": 7, "defUid": 2, "x": 120, "y": 120, "fieldInstances": [] },
+					{ "__identifier": "Respawn_player", "__cx": 25, "__cy": 6, "defUid": 2, "x": 408, "y": 104, "fieldInstances": [] },
+					{ "__identifier": "Respawn_player", "__cx": 6, "__cy": 24, "defUid": 2, "x": 104, "y": 392, "fieldInstances": [] },
+					{ "__identifier": "Respawn_player", "__cx": 24, "__cy": 24, "defUid": 2, "x": 392, "y": 392, "fieldInstances": [] }
+				]
+			},
+			{
+				"__identifier": "Static",
+				"__type": "IntGrid",
+				"__cWid": 32,
+				"__cHei": 32,
+				"__gridSize": 16,
+				"levelId": 0,
+				"layerDefUid": 1,
+				"pxOffsetX": 0,
+				"pxOffsetY": 0,
+				"intGrid": [
+					{ "coordId": 1, "v": 0 },
+					{ "coordId": 14, "v": 0 },
+					{ "coordId": 63, "v": 0 },
+					{ "coordId": 479, "v": 0 },
+					{ "coordId": 544, "v": 0 },
+					{ "coordId": 960, "v": 0 },
+					{ "coordId": 1009, "v": 0 },
+					{ "coordId": 1022, "v": 0 }
+				],
+				"autoTiles": [],
+				"seed": 5806159,
+				"gridTiles": [],
+				"entityInstances": []
+			}
+		]
+	} ]
+}

@@ -1,0 +1,16 @@
+{
+"companyName": "Gametap",
+"productName": "Real Flying Truck Simulator 3D",
+"productVersion": "0.2",
+"dataUrl": "RealFlyingTruck.data.unityweb",
+"wasmCodeUrl": "RealFlyingTruck.wasm.code.unityweb",
+"wasmFrameworkUrl": "RealFlyingTruck.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#1F2C41",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.21f1"
+}
